@@ -1,0 +1,62 @@
+#logo {
+  display: inline-block;
+  max-height: 70px;
+}
+
+#navcol-1 {
+  margin-top: 30px;
+}
+
+.animate {
+  animation-duration: 0.3s;
+  -webkit-animation-duration: 0.3s;
+  animation-fill-mode: both;
+  -webkit-animation-fill-mode: both;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(1rem);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0rem);
+    opacity: 1;
+  }
+  0% {
+    transform: translateY(1rem);
+    opacity: 0;
+  }
+}
+
+.slideIn {
+  -webkit-animation-name: slideIn;
+  animation-name: slideIn;
+}
+
+body {
+  background: #007bff;
+  background: linear-gradient(to right, #0062E6, #33AEFF);
+}
+
+.h1, h1 {
+  font-family: Aleo, serif;
+  /*font-size: 70px;*/
+}
+
+.h1, h1 {
+  /*font-size: 60px;*/
+}
+
+@media (min-width: 1200px) {
+  .cd-words-wrapper {
+    font-size: 70px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cd-words-wrapper {
+    font-size: 40px;
+  }
+}
+
